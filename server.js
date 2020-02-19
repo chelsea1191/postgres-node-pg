@@ -10,8 +10,13 @@ db.sync().then(async () => {
   // db.createAuthor("Justin", "Timberlake");
   // db.createAuthor("Rachel", "Green");
   // db.createAuthor("Monica", "Geller");
-  // db.createAuthor("Chandler", "Bind");
+  // db.createAuthor("Chandler", "Bing");
   //console.log(await db.readAuthors());
   //console.log(await db.readAuthor("f42a05f5-3b19-422c-9701-8ba0ce0e09ff"));
   //console.log(await db.deleteAuthor("f42a05f5-3b19-422c-9701-8ba0ce0e09ff"));
+  // db.updateAuthor(
+  //   "Chelsea",
+  //   "Strudwick",
+  //   "b1d34919-cc97-43d7-baba-60204fc48763"
+  // );
 });
